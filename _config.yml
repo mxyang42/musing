@@ -33,6 +33,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 remote_theme: jekyll/minima
 # theme: minima
 # remote_theme: pages-themes/time-machine@v0.2.0
+google_analytics: G-FRBPY68691
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
