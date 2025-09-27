@@ -1,0 +1,36 @@
+/* About page customized overrides */
+.about-content {
+  text-align: center;
+  max-width: 600px;  /* keeps lines readable */
+  margin: 0 auto;    /* centers the block itself */
+}
+
+.about-content p {
+  margin-bottom: 1rem;
+}
+
+.profile-pic-frame {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 1rem;
+  border: 4px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.profile-pic-frame img {
+  width: 110%;                /* zoom in (100% = normal, >100% = bigger) */
+  height: 110%;
+  object-fit: cover;          /* ensures it still fills */
+  object-position: center 30%; /* adjust crop position */
+  position: absolute;
+  top: -4%;                  /* fine-tune vertical placement */
+  left: 0%;                 /* centers after scaling */
+}
+
+/* emphasis inside quotation should still be italicized */
+blockquote i, blockquote em {
+    font-style: italic;
+}
