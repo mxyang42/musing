@@ -2,6 +2,7 @@
 layout: post
 title: 🎬 Death Becomes Her (1992)
 date:   2025-08-17
+rating: "5"
 categories: review
 tags:
   - film
